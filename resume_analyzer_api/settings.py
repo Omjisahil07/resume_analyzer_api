@@ -6,5 +6,5 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'resume_analyzer',  # Add this line
+    'analyzer',  # Add this line
 ]

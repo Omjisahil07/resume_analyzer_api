@@ -16,3 +16,9 @@ class ResumeAnalyzerAPIView(APIView):
         # Example processing logic
         response_data = {"message": "File processed successfully"}
         return Response(response_data, status=status.HTTP_200_OK)
+# analyzer/views.py
+from django.http import JsonResponse
+
+def your_view(request):
+    data = {"message": "Hello, world!"}
+    return JsonResponse(data)

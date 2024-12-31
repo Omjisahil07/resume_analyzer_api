@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import ResumeAnalyzerAPIView
+from . import views
 
 urlpatterns = [
-    path('analyze/', ResumeAnalyzerAPIView.as_view(), name='analyze-resume'),
+    path('your-endpoint/', views.your_view, name='your-view'),
 ]
