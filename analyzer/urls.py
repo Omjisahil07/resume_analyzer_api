@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from .views import classify_resume
 
 urlpatterns = [
-    path('your-endpoint/', views.your_view, name='your-view'),
+    path('classify-resume/', classify_resume, name='classify_resume'),
 ]

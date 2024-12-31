@@ -1,7 +1,3 @@
-Here's a detailed **README.md** for your Django project, which sets up and runs an API on port 8080. You can copy and paste it into a `README.md` file in your project directory.
-
----
-
 # Resume Analyzer API
 
 A Django-based API that provides functionalities for resume analysis. This API can be used for analyzing resumes, extracting information, and performing other tasks related to resume processing.
@@ -179,6 +175,5 @@ MIDDLEWARE = [
 - Unit tests for better test coverage.
 
 ---
-
 
 https://github.com/Omjisahil07/resume_analyzer_api

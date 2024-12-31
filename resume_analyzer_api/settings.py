@@ -6,5 +6,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'analyzer',  # Add this line
+    'analyzer',
 ]
+
+# Media files configuration
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Create a directory for ML models
+ML_MODELS_DIR = os.path.join(BASE_DIR, 'analyzer', 'ml_models')
